@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  height: 667px;
+  width: 375px;
+  overflow: hidden;
+  font-family: 'Kumb Sans', sans-serif;
+}
+
+a {
+  color: #3e52a3;
+  color: hsl(228, 45%, 44%);
+  font-weight: 400;
+}
+
+.bg {
+  width: 1440px;
+  height: 720px;
+  background-color: #19A2AE;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+}
+
+.bg-top {
+  display: inline-block;
+  position: absolute;
+  bottom: 150px;
+  right: 700px;
+}
+
+.bg-bottom {
+  display: inline-block;
+  position: absolute;
+  top: 375px;
+  left: 700px;
+}
+
+.profile-card {
+  width: 350px;
+  height: 370px;
+  background-color: white;
+  border-radius: 5%;
+  position: relative;
+  top: 160px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 15px 15px 25px 2px #19A2AE;
+}
+
+.bg-pattern {
+  width: 350px;
+  border-radius: 5% 5% 0 0;
+}
+
+.image-victor {
+  border-radius: 100%;
+  border: solid 5px white;
+  position: relative;
+  top: -50px;
+  margin: 0 auto;
+}
+
+.name {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  left: 0;
+  margin: 0 auto 30px;
+  font-weight: 700;
+}
+
+.age {
+  color: #6A6F81;
+  color: hsl(227, 10%, 46%);
+  font-weight: 700;
+}
+
+p {
+  margin-top: -10px;
+  color: #969696;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.followers {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: auto;
+}
+
+.likes {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: auto;
+}
+
+.photos {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: auto;
+}
+
+hr {
+  margin: 30px auto 0;
+  border-color: #fcfcfc;
+  border-color: hsl(0, 0%, 99%);
+}
+
+h3 {
+  font-weight: 700;
+}
+
+h4 {
+  margin: -10px auto 50px;
+  color: #969696;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+.attribution {
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+}
